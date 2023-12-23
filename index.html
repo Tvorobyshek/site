@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="login.js" >
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/favicon.jpg"/>
+    <link rel="icon" type="image/gif" href="/favicon.gif"/>
+<title>Регистрация</title>
+</head>
+<body>
+   
+  <ul>
+    <li><a href="index.html">Регистрация</a></li>
+    <li><a href="login.html">Вход</a></li>
+    <li><a href="form.html">Покупки</a></li>
+    </ul>
+    <form>
+      <div class="container">
+          <h1>Регистрация</h1>
+          <label for="username"><b>Имя пользователя</b></label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            required
+          />
+  
+          <label for="pwd"><b>Пароль</b></label>
+          <input
+            type="password"
+            name="pwd"
+            id="pwd"
+            required
+          />
+  
+          <label for="pwd-repeat"><b>Повторите пароль</b></label>
+          <input
+            type="password"
+            name="pwd-repeat"
+            id="pwd-repeat"
+            required
+          />
+  
+          <button type="submit">Регистрация</button>
+        </div>
+
+        <div>
+          <p>Уже есть аккаунт? <a href="login.html">Войти</a>.</p>
+        </div>
+      </form>
+      
+</body>
+</html>
